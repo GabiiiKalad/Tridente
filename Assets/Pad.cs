@@ -29,56 +29,10 @@ public class PadNumericoVR : MonoBehaviour
     // BOTONES NUMÉRICOS
     // =========================
 
-    public void Boton0()
+    public void Boton(string number)
     {
-        AgregarNumero("0");
+        AgregarNumero(number);
     }
-
-    public void Boton1()
-    {
-        AgregarNumero("1");
-    }
-
-    public void Boton2()
-    {
-        AgregarNumero("2");
-    }
-
-    public void Boton3()
-    {
-        AgregarNumero("3");
-    }
-
-    public void Boton4()
-    {
-        AgregarNumero("4");
-    }
-
-    public void Boton5()
-    {
-        AgregarNumero("5");
-    }
-
-    public void Boton6()
-    {
-        AgregarNumero("6");
-    }
-
-    public void Boton7()
-    {
-        AgregarNumero("7");
-    }
-
-    public void Boton8()
-    {
-        AgregarNumero("8");
-    }
-
-    public void Boton9()
-    {
-        AgregarNumero("9");
-    }
-
 
     // =========================
     // AGREGAR NÚMERO
